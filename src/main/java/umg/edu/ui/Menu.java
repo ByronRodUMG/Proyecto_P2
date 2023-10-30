@@ -163,7 +163,7 @@ public class Menu {
         listEstudiantes3.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (listEstudiantes3.isSelectionEmpty()) {
+                if (e.getClickCount() == 2) {
                     mostrarEstudiantes(listEstudiantes3);
                 }
             }
@@ -172,7 +172,7 @@ public class Menu {
         listEstudiantes4.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (listEstudiantes4.isSelectionEmpty()) {
+                if (e.getClickCount() == 2) {
                     mostrarEstudiantes(listEstudiantes4);
                 }
             }
@@ -318,7 +318,7 @@ public class Menu {
         listCursos3.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (listCursos3.isSelectionEmpty()) {
+                if (e.getClickCount() == 2) {
                     mostrarCursos(listCursos3);
                 }
             }
@@ -327,7 +327,7 @@ public class Menu {
         listCursos4.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (listCursos4.isSelectionEmpty()) {
+                if (e.getClickCount() == 2) {
                     mostrarCursos(listCursos4);
                 }
             }
@@ -399,7 +399,7 @@ public class Menu {
         listEstudiantes.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (listEstudiantes.isSelectionEmpty()) {
+                if (e.getClickCount() == 2) {
                     mostrarEstudiantes(listEstudiantes);
                 }
             }
@@ -408,7 +408,7 @@ public class Menu {
         listCursos.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (listCursos.isSelectionEmpty()) {
+                if (e.getClickCount() == 2) {
                     mostrarCursos(listCursos);
                 }
             }
@@ -537,7 +537,7 @@ public class Menu {
         listInscripciones.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (listInscripciones.isSelectionEmpty()) {
+                if (e.getClickCount() == 2) {
                     mostrarInscripciones(listInscripciones);
                 }
             }
@@ -546,7 +546,7 @@ public class Menu {
         listEstudiantes2.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (listEstudiantes2.isSelectionEmpty()) {
+                if (e.getClickCount() == 2) {
                     mostrarEstudiantes(listEstudiantes2);
                 }
             }
@@ -555,7 +555,7 @@ public class Menu {
         listCursos2.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (listCursos2.isSelectionEmpty()) {
+                if (e.getClickCount() == 2) {
                     mostrarCursos(listCursos2);
                 }
             }
@@ -616,7 +616,7 @@ public class Menu {
         listInscripciones2.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                if (listInscripciones2.isSelectionEmpty()) {
+                if (e.getClickCount() == 2) {
                     mostrarInscripciones(listInscripciones2);
                 }
             }
